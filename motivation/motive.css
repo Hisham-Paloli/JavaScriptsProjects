@@ -1,0 +1,55 @@
+.main-div{
+    margin-top: 6%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+ .INSPIRE{
+    text-align: center;
+    font-family: 'Road Rage', cursive;
+    padding-top: 5%;
+ }
+ .box1{
+     background-image: linear-gradient(to right bottom, #70b6f8da, #82cdf8b0, #99d1ff6c, #68e1f75d, #00f7ff59);
+     width: 50%;
+     padding-top: 3%;
+     min-height: 200px;
+     text-align: center;
+     border-radius: 8px;
+ 
+ }
+ .heading{
+ font-size: 2rem;
+ font-family: 'Road Rage', cursive;
+ 
+ }
+ .hed{
+     text-align: center;
+ }
+ .qt{
+     padding-top: 5%;
+     padding-left: 8%;
+     padding-right: 5%;
+     padding-bottom: 3%;
+     font-family: 'Dongle', sans-serif;
+     font-size: 2rem;
+     line-height: 20px;
+     
+     
+ }
+ .btn{
+     margin-top: 10%;
+ }
+ footer { margin-top: 5%; color: #000000; text-align: center; font-family: 'Indie Flower', cursive; }
+ 
+ @media screen and (max-width: 520px) {
+   
+     .box1{
+         
+         width: 85%;
+     }
+     .heading{
+     font-size: 1.3em;
+     }
+   
+     }

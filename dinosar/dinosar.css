@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+    background-image: linear-gradient(to right bottom, #70abf8da, #acd6f8b0, #7cdaf16c, #c7eefa5d, #84f3f759);
+    border-radius: 15px;
+    text-align: center;
+
+}
+#game{
+    width: 100%;
+    height: 50%;
+    border:  1px solid black;
+    background-color: aliceblue;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+#char{
+    width: 5%;
+    height: 25%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d3/Trex_pixel.png");
+    background-size: cover;
+    position: relative;
+    top: 75%;
+    
+    
+   
+
+}
+.animate{
+    animation: jumb 500ms ;
+}
+#uppart{
+    height: 50%;
+    background-color:  rgba(58, 184, 184, 0.726);
+    position: relative;
+}
+.upperAnimate{
+    animation: spin 2s infinite;
+}
+#downpart{
+    height: 50%;
+    background-color: rgba(116, 126, 126, 0);
+}
+#block{
+    width: 5%;
+    height: 10%;
+    background-color: rgba(201, 128, 211, 0);
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/79/20/gray-stone-with-lights-and-shadows-cartoon-vector-21267920.jpg");
+    background-size: cover;
+    position: relative;
+    top: 65%;
+    animation: block 5s infinite linear;
+    border-radius: 10px 10px 0px 0px;
+}
+#bird{
+    width: 5%;
+    height: 10%;
+    background-color: rgba(120, 238, 145, 0);
+    background-image: url("https://www.vippng.com/png/detail/171-1713301_animated-bird-cartoon.png");;
+    background-size: cover;
+    position: relative;
+    top: 33%;
+    animation: bird 7s infinite linear;
+}
+.animateBird{
+    animation: bird 7s infinite linear;
+}
+.btn{
+    margin-top: 3%;
+    margin-left: 1%;
+}
+.atag{
+    text-decoration: none;
+    color: rgb(30, 255, 0);
+  
+}
+
+
+@keyframes block{
+    0%{left: 100%;}
+    100%{left: 0%;}
+}
+@keyframes bird{
+    0%{left: 100%;}
+    100%{left: 0%;}
+}
+@keyframes jumb{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+@keyframes down{
+    0%{bottom: -25px;}
+    99%{bottom: -25px;}
+    100%{bottom: -25px;}
+    
+}
+@keyframes spin { 
+    0%{transform: rotate(0deg)}
+    5%{transform: rotate(90deg)}
+    99%{transform: rotate(90deg)}
+    100%{transform: rotate(90deg)}
+}

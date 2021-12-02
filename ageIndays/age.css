@@ -1,0 +1,39 @@
+.div1{
+    text-align: center;
+    padding-top: 50px;
+    
+ }
+ .heading{
+     margin-bottom: 60px;
+     font-family: 'Road Rage', cursive;
+     font-size: 50px;
+ }
+ .BOX{
+     background-image: linear-gradient(to right bottom, #70b6f8da, #82cdf8b0, #99d1ff6c, #68e1f75d, #00f7ff59);
+     padding-top: 50px;
+     border-radius: 8px;
+     width: 400px;
+     height: 350px;
+     margin-left: 10px;
+     margin-right: 10px;
+     text-align: center;
+     align-items: center;
+ }
+ .age-box{
+     border-radius: 3px;
+     background-color: rgb(124, 241, 206);
+     width: 130px;
+     text-align: center;
+     margin-left: 35%;
+     margin-top: 80px;
+     padding-left: 20px;
+ }
+ .a-tag{
+     text-decoration: none;
+     color: azure;
+ }
+ .your-age{
+ margin-top: 40px;
+ font-family: 'Road Rage', cursive;
+ }
+ footer { margin-top: 5%; color: #000000; text-align: center; font-family: 'Indie Flower', cursive; }
